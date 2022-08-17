@@ -12,3 +12,9 @@ import java.awt.event.*;
 
   JFrame dataFrame = new JFrame();
 
+    // JFrame Formatting
+    dataFrame.setSize(275, 200);
+    dataFrame.setLocationRelativeTo(null);
+    dataFrame.setTitle("Set X & Y Values");
+    dataFrame.setLayout(null);
+    dataFrame.setVisible(true);
