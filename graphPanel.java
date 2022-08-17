@@ -9,6 +9,6 @@ class graphPanel {
 
   public graphPanel() {
     graphPanel.setBounds(10, 10, 465, 290);
-    graphPanel.setBackground(Color.BLACK);
+    graphPanel.setBorder(BorderFactory.createLineBorder(Color.black));
   }
 }
