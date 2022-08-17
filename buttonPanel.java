@@ -22,5 +22,21 @@ class buttonPanel {
 
     displayData.setBounds(155, 10, 135, 25);
     buttonPanelObj.add(displayData);
+
+    // ACTION LISTENERS
+
+    // Insert Data Action Lisetner
+    insertData.addActionListener(new ActionListener() {
+      public void actionPerformed(ActionEvent e) {
+        insertData insertDataObj = new insertData();
+      }
+    });
+
+    // Display Data Action Lisetner
+    displayData.addActionListener(new ActionListener() {
+      public void actionPerformed(ActionEvent e) {
+        displayData displayDataObj = new displayData();
+      }
+    });
   }
 }
