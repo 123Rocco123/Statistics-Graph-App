@@ -27,3 +27,10 @@ import java.awt.event.*;
     dataFrame.add(xValues);
     dataFrame.add(yValues);
 
+    // JLabels Formatting & Adding to JFrame
+
+    xLabel.setBounds(10, 10, 118, 25);
+    yLabel.setBounds(10, 45, 118, 25);
+
+    dataFrame.add(xLabel);
+    dataFrame.add(yLabel);
