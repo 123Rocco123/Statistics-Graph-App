@@ -15,6 +15,7 @@ class mainClass {
     mainFrame.setLayout(null);
     mainFrame.setLocationRelativeTo(null);
     mainFrame.setTitle("Analysis Program");
+    mainFrame.setResizable(false);
 
     // Panel Class Calls
     graphPanel graphPanelObj = new graphPanel();
