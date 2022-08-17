@@ -16,5 +16,11 @@ class buttonPanel {
   public buttonPanel() {
     buttonPanelObj.setBounds(10, 310, 465, 140);
     buttonPanelObj.setBorder(BorderFactory.createLineBorder(Color.black));
+
+    insertData.setBounds(10, 10, 135, 25);
+    buttonPanelObj.add(insertData);
+
+    displayData.setBounds(155, 10, 135, 25);
+    buttonPanelObj.add(displayData);
   }
 }
