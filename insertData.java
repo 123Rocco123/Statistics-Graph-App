@@ -18,3 +18,12 @@ import java.awt.event.*;
     dataFrame.setTitle("Set X & Y Values");
     dataFrame.setLayout(null);
     dataFrame.setVisible(true);
+
+    // JTextField Formatting & Adding to JFrame
+
+    xValues.setBounds(128, 10, 118, 25);
+    yValues.setBounds(128, 45, 118, 25);
+
+    dataFrame.add(xValues);
+    dataFrame.add(yValues);
+
