@@ -4,6 +4,7 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 
+class insertData {
   JTextField xValues = new JTextField(30);
   JTextField yValues = new JTextField(30);
 
@@ -12,6 +13,7 @@ import java.awt.event.*;
 
   JFrame dataFrame = new JFrame();
 
+  public insertData() {
     // JFrame Formatting
     dataFrame.setSize(275, 200);
     dataFrame.setLocationRelativeTo(null);
@@ -34,3 +36,5 @@ import java.awt.event.*;
 
     dataFrame.add(xLabel);
     dataFrame.add(yLabel);
+  }
+}
